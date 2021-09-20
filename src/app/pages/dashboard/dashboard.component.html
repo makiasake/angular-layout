@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Pagina inicial</h5>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let menu of menus">
+                <th scope="row">{{menu.name}}</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
