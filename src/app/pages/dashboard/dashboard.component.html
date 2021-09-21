@@ -12,7 +12,7 @@
             </thead>
             <tbody>
               <tr *ngFor="let menu of menus">
-                <th scope="row">{{menu.name}}</th>
+                <th scope="row"><a routerLink="{{menu.path}}">{{menu.name}}</a></th>
               </tr>
             </tbody>
           </table>

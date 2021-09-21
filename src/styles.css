@@ -1,2 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+.w-170 {
+    width: 170%;
+}
+
+.min-height-45 {
+    min-height: 45vh;
+}
+
+.min-height-90 {
+    min-height: 90vh;
+}
+
+.min-height-700 {
+    min-height: 700vh;
+}
